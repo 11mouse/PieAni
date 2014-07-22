@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07DFDBB817815543003F6DBB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07DFDBB717815543003F6DBB /* UIKit.framework */; };
+		07DFDBBA17815543003F6DBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07DFDBB917815543003F6DBB /* Foundation.framework */; };
+		07DFDBBC17815543003F6DBB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07DFDBBB17815543003F6DBB /* CoreGraphics.framework */; };
+		07DFDBC217815543003F6DBB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07DFDBC017815543003F6DBB /* InfoPlist.strings */; };
+		07DFDBC417815543003F6DBB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DFDBC317815543003F6DBB /* main.m */; };
+		07DFDBC817815543003F6DBB /* PAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DFDBC717815543003F6DBB /* PAAppDelegate.m */; };
+		07DFDBCA17815543003F6DBB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 07DFDBC917815543003F6DBB /* Default.png */; };
+		07DFDBCC17815543003F6DBB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07DFDBCB17815543003F6DBB /* Default@2x.png */; };
+		07DFDBCE17815543003F6DBB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07DFDBCD17815543003F6DBB /* Default-568h@2x.png */; };
+		07DFDBD117815543003F6DBB /* PAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DFDBD017815543003F6DBB /* PAViewController.m */; };
+		07DFDBD417815543003F6DBB /* PAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07DFDBD217815543003F6DBB /* PAViewController.xib */; };
+		07DFDBDC1781555F003F6DBB /* PAPieAniView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DFDBDB1781555F003F6DBB /* PAPieAniView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07DFDBB417815543003F6DBB /* PieAni.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PieAni.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07DFDBB717815543003F6DBB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		07DFDBB917815543003F6DBB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		07DFDBBB17815543003F6DBB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		07DFDBBF17815543003F6DBB /* PieAni-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PieAni-Info.plist"; sourceTree = "<group>"; };
+		07DFDBC117815543003F6DBB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		07DFDBC317815543003F6DBB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07DFDBC517815543003F6DBB /* PieAni-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PieAni-Prefix.pch"; sourceTree = "<group>"; };
+		07DFDBC617815543003F6DBB /* PAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PAAppDelegate.h; sourceTree = "<group>"; };
+		07DFDBC717815543003F6DBB /* PAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PAAppDelegate.m; sourceTree = "<group>"; };
+		07DFDBC917815543003F6DBB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		07DFDBCB17815543003F6DBB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		07DFDBCD17815543003F6DBB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		07DFDBCF17815543003F6DBB /* PAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PAViewController.h; sourceTree = "<group>"; };
+		07DFDBD017815543003F6DBB /* PAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PAViewController.m; sourceTree = "<group>"; };
+		07DFDBD317815543003F6DBB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PAViewController.xib; sourceTree = "<group>"; };
+		07DFDBDA1781555F003F6DBB /* PAPieAniView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAPieAniView.h; sourceTree = "<group>"; };
+		07DFDBDB1781555F003F6DBB /* PAPieAniView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAPieAniView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07DFDBB117815543003F6DBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07DFDBB817815543003F6DBB /* UIKit.framework in Frameworks */,
+				07DFDBBA17815543003F6DBB /* Foundation.framework in Frameworks */,
+				07DFDBBC17815543003F6DBB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07DFDBAB17815543003F6DBB = {
+			isa = PBXGroup;
+			children = (
+				07DFDBBD17815543003F6DBB /* PieAni */,
+				07DFDBB617815543003F6DBB /* Frameworks */,
+				07DFDBB517815543003F6DBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07DFDBB517815543003F6DBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07DFDBB417815543003F6DBB /* PieAni.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07DFDBB617815543003F6DBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07DFDBB717815543003F6DBB /* UIKit.framework */,
+				07DFDBB917815543003F6DBB /* Foundation.framework */,
+				07DFDBBB17815543003F6DBB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		07DFDBBD17815543003F6DBB /* PieAni */ = {
+			isa = PBXGroup;
+			children = (
+				07DFDBC617815543003F6DBB /* PAAppDelegate.h */,
+				07DFDBC717815543003F6DBB /* PAAppDelegate.m */,
+				07DFDBCF17815543003F6DBB /* PAViewController.h */,
+				07DFDBD017815543003F6DBB /* PAViewController.m */,
+				07DFDBD217815543003F6DBB /* PAViewController.xib */,
+				07DFDBBE17815543003F6DBB /* Supporting Files */,
+				07DFDBDA1781555F003F6DBB /* PAPieAniView.h */,
+				07DFDBDB1781555F003F6DBB /* PAPieAniView.m */,
+			);
+			path = PieAni;
+			sourceTree = "<group>";
+		};
+		07DFDBBE17815543003F6DBB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07DFDBBF17815543003F6DBB /* PieAni-Info.plist */,
+				07DFDBC017815543003F6DBB /* InfoPlist.strings */,
+				07DFDBC317815543003F6DBB /* main.m */,
+				07DFDBC517815543003F6DBB /* PieAni-Prefix.pch */,
+				07DFDBC917815543003F6DBB /* Default.png */,
+				07DFDBCB17815543003F6DBB /* Default@2x.png */,
+				07DFDBCD17815543003F6DBB /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07DFDBB317815543003F6DBB /* PieAni */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07DFDBD717815543003F6DBB /* Build configuration list for PBXNativeTarget "PieAni" */;
+			buildPhases = (
+				07DFDBB017815543003F6DBB /* Sources */,
+				07DFDBB117815543003F6DBB /* Frameworks */,
+				07DFDBB217815543003F6DBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PieAni;
+			productName = PieAni;
+			productReference = 07DFDBB417815543003F6DBB /* PieAni.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07DFDBAC17815543003F6DBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PA;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = duan;
+			};
+			buildConfigurationList = 07DFDBAF17815543003F6DBB /* Build configuration list for PBXProject "PieAni" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 07DFDBAB17815543003F6DBB;
+			productRefGroup = 07DFDBB517815543003F6DBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07DFDBB317815543003F6DBB /* PieAni */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07DFDBB217815543003F6DBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07DFDBC217815543003F6DBB /* InfoPlist.strings in Resources */,
+				07DFDBCA17815543003F6DBB /* Default.png in Resources */,
+				07DFDBCC17815543003F6DBB /* Default@2x.png in Resources */,
+				07DFDBCE17815543003F6DBB /* Default-568h@2x.png in Resources */,
+				07DFDBD417815543003F6DBB /* PAViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07DFDBB017815543003F6DBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07DFDBC417815543003F6DBB /* main.m in Sources */,
+				07DFDBC817815543003F6DBB /* PAAppDelegate.m in Sources */,
+				07DFDBD117815543003F6DBB /* PAViewController.m in Sources */,
+				07DFDBDC1781555F003F6DBB /* PAPieAniView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		07DFDBC017815543003F6DBB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07DFDBC117815543003F6DBB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		07DFDBD217815543003F6DBB /* PAViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07DFDBD317815543003F6DBB /* en */,
+			);
+			name = PAViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07DFDBD517815543003F6DBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		07DFDBD617815543003F6DBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07DFDBD817815543003F6DBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PieAni/PieAni-Prefix.pch";
+				INFOPLIST_FILE = "PieAni/PieAni-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		07DFDBD917815543003F6DBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PieAni/PieAni-Prefix.pch";
+				INFOPLIST_FILE = "PieAni/PieAni-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07DFDBAF17815543003F6DBB /* Build configuration list for PBXProject "PieAni" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07DFDBD517815543003F6DBB /* Debug */,
+				07DFDBD617815543003F6DBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07DFDBD717815543003F6DBB /* Build configuration list for PBXNativeTarget "PieAni" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07DFDBD817815543003F6DBB /* Debug */,
+				07DFDBD917815543003F6DBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07DFDBAC17815543003F6DBB /* Project object */;
+}
